@@ -1,0 +1,28 @@
+.links{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background: #000;
+    height: 50px;
+    border-radius: 20%;
+}
+
+.nav{
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+}
+
+h3{
+    color : greenyellow;
+}
+
+button{
+    background: greenyellow;
+}
+
+body{
+    background-color: greenyellow;
+}
