@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+}
+body{
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    background-color: white;
+    border: 20px solid purple;
+    display: block;
+    margin : auto;
+}
+h1{
+    color: purple;
+    margin: auto;
+    text-align: center;
+}
+h4{
+    color: white;
+    background-color: purple;
+    margin: 2px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border: 20px solid purple;
+}
