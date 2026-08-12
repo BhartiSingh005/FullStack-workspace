@@ -1,0 +1,28 @@
+.container{
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1{
+    color: transparent;
+    font-size: 50px;
+    /* text-shadow: 3px 4px 3px black; */
+}
+
+h2{
+    text-shadow: 3px 2px 1px grey;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
