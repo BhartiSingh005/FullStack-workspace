@@ -1,0 +1,39 @@
+.boxOut{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(red, green, blue, grey, grey);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.boxIn{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    border-radius: 10%;
+    background-color: rgb(33, 33, 33);
+    min-height: 45vh;
+    min-width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 5px;
+    /* border-color: linear-gradient(red); */
+}
+
+body{
+    height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: black;
+}
