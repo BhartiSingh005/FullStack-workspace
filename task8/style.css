@@ -1,0 +1,16 @@
+.container{
+    min-height: 80vh;
+    min-width : 80vw;
+    border: 2px solid black;
+}
+
+.left {
+    color: red;
+    width: 80px;
+    float: left;
+}
+
+.right{
+    width: 80px;
+    float: right;
+}
