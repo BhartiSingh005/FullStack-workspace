@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Combinators</title>
+    <style>
+        h1, h2 {
+            color: darkblue;
+            font-family: Arial, sans-serif;
+        }
+        h2 + p {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>This is a Main Heading </h1>
+    <p>This paragraph is normal because it follows an h1, not an h2.</p>
+
+    <h2>This is a Subheading </h2>
+    <p>This paragraph turns RED and BOLD because it is immediately after the h2!</p>
+    
+    <p>This paragraph is normal because it is not the immediate neighbor of the h2.</p>
+
+</body>
+</html>
