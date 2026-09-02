@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+        .con{
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+        }
+        .left-pane{
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            outline: 4px solid black;
+            background-color: #494949;
+            color: white;
+        }
+        .card{
+            display:flex;
+            flex-direction: row;
+            margin:0px 60px ;
+            padding: 10px;
+            outline: 2px solid black;
+            border-radius: 10px;
+        }
+        .c1 , .c2 , .c3 , .c4{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            background-color: #919191;
+            border-radius: 15px;
+            text-align: center;
+            padding: 20px;
+            margin: 30px;
+            color: white;
+            font-weight: bold;
+        }
+        .right-pane{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 95vw;
+            outline: 1px solid black;
+            background-color: #EAEAEA;  
+        }
+        .do{
+            margin: 30px;
+            padding: 20px;
+            background-color: #C2C2C2;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .l1, .l2, .l3, .l4, .l5{
+            margin: 20px;
+        }
+        .l{
+            margin:40px;
+            text-align: center;
+            font-size: 30px ;
+            font-weight: bold;
+        }
+        .test-user{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin: 50px;
+            outline: 1px solid black;
+            border-radius: 10px;
+        }
+        .t1, .t2, .t3, .t4, .t5, .t6, .t7{
+            background-color: #f4f4f9;
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="left-pane">
+            <div class="l">Dashboard</div>
+            <div class="l1">Dashboard</div>
+            <div class="l2">Users</div>
+            <div class="l3">Products</div>
+            <div class="l4">Orders</div>
+            <div class="l5">Settings</div>
+        </div>
+        <div class="right-pane">
+            <div class="do">
+                Dashboard Overview 
+            </div>
+            <div class="card">
+                <div class="c1">Users</div>
+                <div class="c2">Products</div>
+                <div class="c3">Orders</div>
+                <div class="c4">Revenue</div>
+            </div>
+            <div class="test-user">
+                <div class="t1">Madhav</div>
+                <div class="t2">Akshat</div>
+                <div class="t3">Kushal</div>
+                <div class="t4">Anmol</div>
+                <div class="t5">Utkarsh</div>
+                <div class="t6">Keerti</div>
+                <div class="t7">Pranav </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

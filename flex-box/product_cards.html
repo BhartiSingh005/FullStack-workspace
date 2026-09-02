@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 200px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .card-price {
+            font-size: 1rem;
+            color: #2b8a3e;
+            margin-bottom: 15px;
+        }
+        .card-btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-title">Laptop</div>
+            <div class="card-price">$999</div>
+            <button class="card-btn">Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-title">Mouse</div>
+            <div class="card-price">$25</div>
+            <button class="card-btn">Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-title">Keyboard</div>
+            <div class="card-price">$45</div>
+            <button class="card-btn">Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-title">Monitor</div>
+            <div class="card-price">$199</div>
+            <button class="card-btn">Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-title">Stand</div>
+            <div class="card-price">$30</div>
+            <button class="card-btn">Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-title">CPU</div>
+            <div class="card-price">$299</div>
+            <button class="card-btn">Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-title">UPS</div>
+            <div class="card-price">$80</div>
+            <button class="card-btn">Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-title">MIC</div>
+            <div class="card-price">$50</div>
+            <button class="card-btn">Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>

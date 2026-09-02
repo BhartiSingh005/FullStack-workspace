@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            align-items:center;
+            background-color: black;  
+            height:97 vh;
+            width:97 vw;
+        }
+        .home , .about , .service , .contact ,.main{
+            padding: 10px;
+            margin: 5px;
+            color: white;
+        }
+        .links{
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;
+            font-size: 18px;   
+        }   
+        .login{
+            background-color:blue;
+            color:white;
+            border-radius:5px;
+            height:40px;
+            width:90px;
+            text-align:center;
+            line-height:40px;
+            margin-right:20px;
+        }
+        .main{
+            font-size: 22px;
+            font-weight: bold;
+            width : max-content;
+        }
+        .logo{
+            padding: 10px;
+            display:flex;
+            align-items:center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="Tech.png" width="30px" height="30px">
+            <div class="main">TechNova</div>
+        </div>
+        <div class="links">
+            <div class="home">Home</div>
+            <div class="about">About</div>
+            <div class="service">Services</div>
+            <div class="contact">Contact</div>
+        </div>
+        <div class="login">Login</div>
+    </div>
+</body>
+</html>
