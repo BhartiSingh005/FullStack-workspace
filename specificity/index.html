@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* @layer special, base;     */
+        @layer base{
+            p{
+                font-size:300px;
+                color:red;
+            }
+            button{
+                font-size:20px;
+                color:aqua;
+            }
+        }
+        @layer special{
+            p{
+                color:blue;
+            }
+            button{
+                font-size:100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Specificity</p>
+    <button> Click ME!!!</button>
+</body>
+</html>
